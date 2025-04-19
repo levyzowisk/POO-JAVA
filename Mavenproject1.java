@@ -9,5 +9,17 @@ package com.mycompany.mavenproject1;
  * @author levysousa
  */
 public class Mavenproject1 {
-    
+
+    public static void main(String[] args) {
+        Cat c = new Cat();
+        c.setName("Mimi");
+        c.setFurColor("black");
+        c.makeSound();
+        
+        Dog d = new Dog();
+        d.setName("Beethoven");
+        d.setRace("stiff foot");
+        d.makeSound();
+        
+    }
 }
